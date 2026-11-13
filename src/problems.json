@@ -1,0 +1,1002 @@
+[
+  {
+    "titleSlug": "concatenation-of-array",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "duplicate-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "is-anagram",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "two-integer-sum",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "longest-common-prefix",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "anagram-groups",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "remove-element",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "majority-element",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "design-hashset",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "design-hashmap",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "sort-an-array",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "sort-colors",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "top-k-elements-in-list",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "string-encode-and-decode",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "range-sum-query-2d-immutable",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "products-of-array-discluding-self",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "valid-sudoku",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-consecutive-sequence",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "best-time-to-buy-and-sell-stock-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "majority-element-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "subarray-sum-equals-k",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "first-missing-positive",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "reverse-string",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "is-palindrome",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "valid-palindrome-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "merge-strings-alternately",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "merge-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "remove-duplicates-from-sorted-array",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "two-integer-sum-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "three-integer-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "4sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "rotate-array",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "max-water-container",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "boats-to-save-people",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "trapping-rain-water",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "contains-duplicate-ii",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "buy-and-sell-crypto",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "longest-substring-without-duplicates",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-repeating-substring-with-replacement",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "permutation-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "minimum-size-subarray-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-k-closest-elements",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "minimum-window-with-characters",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "sliding-window-maximum",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "baseball-game",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "validate-parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "implement-stack-using-queues",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "implement-queue-using-stacks",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "minimum-stack",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "evaluate-reverse-polish-notation",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "generate-parentheses",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "asteroid-collision",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "daily-temperatures",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "online-stock-span",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "car-fleet",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "simplify-path",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "decode-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "maximum-frequency-stack",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "largest-rectangle-in-histogram",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "binary-search",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "search-insert-position",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "guess-number-higher-or-lower",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "sqrtx",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "search-2d-matrix",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "eating-bananas",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "capacity-to-ship-packages-within-d-days",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-minimum-in-rotated-sorted-array",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-target-in-rotated-sorted-array",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "search-in-rotated-sorted-array-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "time-based-key-value-store",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "split-array-largest-sum",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "find-in-mountain-array",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "reverse-a-linked-list",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "merge-two-sorted-linked-lists",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "linked-list-cycle-detection",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "reorder-linked-list",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "remove-node-from-end-of-linked-list",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "copy-linked-list-with-random-pointer",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "add-two-numbers",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-duplicate-integer",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "reverse-linked-list-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "design-circular-queue",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "lru-cache",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "lfu-cache",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "merge-k-sorted-linked-lists",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "reverse-nodes-in-k-group",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "binary-tree-preorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "binary-tree-postorder-traversal",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "invert-a-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "depth-of-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "binary-tree-diameter",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "balanced-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "same-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "subtree-of-a-binary-tree",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "lowest-common-ancestor-in-binary-search-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "insert-into-a-binary-search-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "delete-node-in-a-bst",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "level-order-traversal-of-binary-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "binary-tree-right-side-view",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "construct-quad-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "count-good-nodes-in-binary-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "valid-binary-search-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "kth-smallest-integer-in-bst",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "house-robber-iii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "delete-leaves-with-a-given-value",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "binary-tree-maximum-path-sum",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "kth-largest-integer-in-a-stream",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "last-stone-weight",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "k-closest-points-to-origin",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "kth-largest-element-in-an-array",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "task-scheduling",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "design-twitter-feed",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "single-threaded-cpu",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "reorganize-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-happy-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "car-pooling",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-median-in-a-data-stream",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "ipo",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "sum-of-all-subset-xor-totals",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "subsets",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "combination-target-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "combination-target-sum-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "combinations",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "permutations",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "subsets-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "permutations-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "search-for-word",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "palindrome-partitioning",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "combinations-of-a-phone-number",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "matchsticks-to-square",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "partition-to-k-equal-sum-subsets",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "n-queens",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "n-queens-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "word-break-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "implement-prefix-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "design-word-search-data-structure",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "extra-characters-in-a-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "search-for-word-ii",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "island-perimeter",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "verifying-an-alien-dictionary",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "find-the-town-judge",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "count-number-of-islands",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "max-area-of-island",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "clone-graph",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "islands-and-treasure",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "rotting-fruit",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "pacific-atlantic-water-flow",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "surrounded-regions",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "open-the-lock",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "course-schedule",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "course-schedule-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "valid-tree",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "course-schedule-iv",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "count-connected-components",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "redundant-connection",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "accounts-merge",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "evaluate-division",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "minimum-height-trees",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "word-ladder",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "path-with-minimum-effort",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "network-delay-time",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "reconstruct-flight-path",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "min-cost-to-connect-points",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "swim-in-rising-water",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "foreign-dictionary",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "cheapest-flight-path",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "build-a-matrix-with-conditions",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "greatest-common-divisor-traversal",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "climbing-stairs",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "min-cost-climbing-stairs",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "n-th-tribonacci-number",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "house-robber",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "house-robber-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-palindromic-substring",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "palindromic-substrings",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "decode-ways",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "coin-change",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "maximum-product-subarray",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "word-break",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-increasing-subsequence",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "partition-equal-subset-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "combination-sum-iv",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "perfect-squares",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "integer-break",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "stone-game-iii",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "count-paths",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "unique-paths-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "minimum-path-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-common-subsequence",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "last-stone-weight-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "buy-and-sell-crypto-with-cooldown",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "coin-change-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "target-sum",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "interleaving-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "stone-game",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "stone-game-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-increasing-path-in-matrix",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "count-subsequences",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "edit-distance",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "burst-balloons",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "regular-expression-matching",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "lemonade-change",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "maximum-subarray",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "maximum-sum-circular-subarray",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "longest-turbulent-subarray",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "jump-game",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "jump-game-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "jump-game-vii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "gas-station",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "hand-of-straights",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "dota2-senate",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "merge-triplets-to-form-target",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "partition-labels",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "valid-parenthesis-string",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "candy",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "insert-new-interval",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "merge-intervals",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "non-overlapping-intervals",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "meeting-schedule",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "meeting-schedule-ii",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "meeting-rooms-iii",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "minimum-interval-including-query",
+    "difficulty": "Hard"
+  },
+  {
+    "titleSlug": "excel-sheet-column-title",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "greatest-common-divisor-of-strings",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "insert-greatest-common-divisors-in-linked-list",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "transpose-matrix",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "rotate-matrix",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "spiral-matrix",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "set-zeroes-in-matrix",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "non-cyclical-number",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "plus-one",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "roman-to-integer",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "pow-x-n",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "multiply-strings",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "count-squares",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "single-number",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "number-of-one-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "counting-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "add-binary",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "reverse-bits",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "missing-number",
+    "difficulty": "Easy"
+  },
+  {
+    "titleSlug": "sum-of-two-integers",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "reverse-integer",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "bitwise-and-of-numbers-range",
+    "difficulty": "Medium"
+  },
+  {
+    "titleSlug": "minimum-array-end",
+    "difficulty": "Medium"
+  }
+]
