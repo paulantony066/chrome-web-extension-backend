@@ -7,6 +7,7 @@ import path from 'path'
 
 const app = express()
 app.use(cors())
+
 app.get('/', (_req, res) => {
   res.send('LC Duel server is running')
 })
@@ -40,8 +41,45 @@ try {
 
 let waitingUser: { id: string; username: string } | null = null
 
-
 const endedRooms = new Set<string>()
+
+
+interface PendingRoom {
+  roomId: string
+  hostSocketId: string
+  hostPlayerId: string
+  hostUsername: string
+}
+const pendingRooms = new Map<string, PendingRoom>()
+
+
+const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
+
+const generateCode = (): string => {
+  let code = ''
+  do {
+    code = Array.from({ length: 5 }, () =>
+      CODE_CHARS[Math.floor(Math.random() * CODE_CHARS.length)]
+    ).join('')
+  } while (
+    pendingRooms.has(code) ||
+    io.sockets.adapter.rooms.has(`room_${code}`) ||
+    endedRooms.has(`room_${code}`)
+  )
+  return code
+}
+
+
+const cancelHostedRoom = (socket: Socket): boolean => {
+  for (const [code, room] of pendingRooms) {
+    if (room.hostSocketId === socket.id) {
+      pendingRooms.delete(code)
+      socket.leave(room.roomId)
+      return true
+    }
+  }
+  return false
+}
 
 
 const getDuelRoom = (socket: Socket): string | undefined =>
@@ -60,7 +98,7 @@ const relay = (socket: Socket, event: string, payload?: unknown) => {
   }
 }
 
-// Identify the player (stable across page loads), not just the socket
+
 io.use((socket, next) => {
   socket.data.playerId = socket.handshake.auth?.playerId ?? socket.id
   console.log(`connect: socket=${socket.id} player=${socket.data.playerId}`)
@@ -70,8 +108,12 @@ io.use((socket, next) => {
 io.on('connection', (socket) => {
   console.log(`User connected: ${socket.id}`)
 
+
   socket.on('find_match', (data?: { username?: string }) => {
     const username = data?.username || 'AnonymousCoder'
+
+    if (getDuelRoom(socket)) return  
+    cancelHostedRoom(socket)          
 
     if (!waitingUser || !waitingUser.id) {
       waitingUser = { id: socket.id, username }
@@ -99,14 +141,83 @@ io.on('connection', (socket) => {
     }
   })
 
+
+  socket.on('host_room', (data?: { username?: string }) => {
+    if (getDuelRoom(socket)) {
+      socket.emit('room_error', { message: 'You are already in a battle.' })
+      return
+    }
+
+    if (waitingUser?.id === socket.id) waitingUser = null
+    cancelHostedRoom(socket)
+
+    const code = generateCode()
+    const roomId = `room_${code}`
+
+    pendingRooms.set(code, {
+      roomId,
+      hostSocketId: socket.id,
+      hostPlayerId: socket.data.playerId,
+      hostUsername: data?.username || 'AnonymousCoder',
+    })
+    socket.join(roomId)   
+
+    socket.emit('room_created', { code })
+    console.log(`Room hosted: ${code} by ${socket.id}`)
+  })
+
+
+  socket.on('join_room', (data?: { code?: string; username?: string }) => {
+    const code = (data?.code ?? '').trim().toUpperCase()
+    const username = data?.username || 'AnonymousCoder'
+
+    if (getDuelRoom(socket)) {
+      socket.emit('room_error', { message: 'You are already in a battle.' })
+      return
+    }
+
+    const room = pendingRooms.get(code)
+    if (!room) {
+      socket.emit('room_error', { message: 'Room not found or already full.' })
+      return
+    }
+    if (room.hostPlayerId === socket.data.playerId) {
+      socket.emit('room_error', { message: "You can't join your own room." })
+      return
+    }
+
+    const hostSocket = io.sockets.sockets.get(room.hostSocketId)
+    if (!hostSocket) {
+      pendingRooms.delete(code)
+      socket.emit('room_error', { message: 'The host has left.' })
+      return
+    }
+
+  
+    pendingRooms.delete(code)
+    if (waitingUser?.id === socket.id) waitingUser = null
+    cancelHostedRoom(socket)   
+
+    socket.join(room.roomId)
+
+  
+    io.to(socket.id).emit('match_found', { roomId: room.roomId, opponentUsername: room.hostUsername })
+    io.to(room.hostSocketId).emit('match_found', { roomId: room.roomId, opponentUsername: username })
+
+    console.log(`Custom match started: ${room.roomId} (${room.hostUsername} vs ${username})`)
+  })
+
+
+  socket.on('cancel_room', () => {
+    if (cancelHostedRoom(socket)) socket.emit('room_cancelled')
+  })
+
   socket.on('rejoin_room', (data: { roomId: string }) => {
-    // If the battle already ended while this player was away, tell them
     if (endedRooms.has(data.roomId)) {
       socket.emit('battle_ended')
       return
     }
 
-    // Kill stale sockets belonging to the same player (left over from the previous page)
     const members = io.sockets.adapter.rooms.get(data.roomId)
     if (members) {
       for (const id of Array.from(members)) {
@@ -127,8 +238,8 @@ io.on('connection', (socket) => {
     if (!duelRoom) return
 
     endedRooms.add(duelRoom)
-    relay(socket, 'battle_ended')               // notify the opponent first
-    io.in(duelRoom).socketsLeave(duelRoom)      // then dissolve the room for both
+    relay(socket, 'battle_ended')
+    io.in(duelRoom).socketsLeave(duelRoom)
     console.log(`Battle ended, room closed: ${duelRoom}`)
   })
 
@@ -136,9 +247,9 @@ io.on('connection', (socket) => {
     if (waitingUser?.id === socket.id) {
       waitingUser = null
     }
+    cancelHostedRoom(socket)   
     console.log(`User disconnected: ${socket.id}`)
   })
-
 
   socket.on('typing',            () => relay(socket, 'opponent_typing'))
   socket.on('stop_typing',       () => relay(socket, 'opponent_stop_typing'))
@@ -171,8 +282,6 @@ io.on('connection', (socket) => {
     }
   })
 })
-
-
 
 const PORT = Number(process.env.PORT) || 3000
 httpServer.listen(PORT, '0.0.0.0', () => {
